@@ -1,7 +1,7 @@
 #!/bin/bash
 # Master System Monitoring Script
 # Version 1.0
-# Author: Linux Sysadmin
+# Author: Linux Sysadmin - "r2d2-4646"
 
 # Configuration
 REPORT_FILE="/var/log/system_report_$(date +%Y%m%d).log"
