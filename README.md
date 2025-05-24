@@ -38,3 +38,8 @@ Uses du -b for accurate sorting (bytes instead of human-readable).
 numfmt formats size properly for readable output after sorting. 
 Handles filenames with spaces safely with awk and quoting.
 Suppresses find errors using 2>/dev/null.
+
+bandwith_usage_monitor.sh
+---------------------
+Checks for root privileges. Verifies iftop installation. Offers to install iftop if missing. Lists available network interfaces
+Uses select for interactive interface choice. Clean interface with clear prompts. Added duration limit (30 seconds by default). Explicit root check. Proper command validation. Clean error exits
