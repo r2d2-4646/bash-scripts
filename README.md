@@ -27,3 +27,6 @@ Added timeouts to curl and ping,
 Filtered comments from resolv.conf,
 Colorized ip command output.
 
+error_log_scanner.sh
+---------------------
+It loops through key logs and filters for potentially problematic entries.
