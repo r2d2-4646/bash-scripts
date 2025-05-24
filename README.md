@@ -30,3 +30,11 @@ Colorized ip command output.
 error_log_scanner.sh
 ---------------------
 It loops through key logs and filters for potentially problematic entries.
+
+disk_space.sh
+---------------------
+This script snippet is effective for checking disk usage by log files. 
+Uses du -b for accurate sorting (bytes instead of human-readable). 
+numfmt formats size properly for readable output after sorting. 
+Handles filenames with spaces safely with awk and quoting.
+Suppresses find errors using 2>/dev/null.
